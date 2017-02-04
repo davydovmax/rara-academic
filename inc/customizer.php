@@ -1089,7 +1089,7 @@ function rara_academic_customize_register( $wp_customize ) {
     $wp_customize->add_control(
         'rara_academic_youtube',
         array(
-            'label' => __( 'VK', 'rara-academic' ),
+            'label' => __( 'YouTube', 'rara-academic' ),
             'section' => 'rara_academic_social_settings',
             'type' => 'text',
         )
