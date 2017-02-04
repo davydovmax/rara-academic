@@ -1089,7 +1089,25 @@ function rara_academic_customize_register( $wp_customize ) {
     $wp_customize->add_control(
         'rara_academic_youtube',
         array(
-            'label' => __( 'YouTube', 'rara-academic' ),
+            'label' => __( 'VK', 'rara-academic' ),
+            'section' => 'rara_academic_social_settings',
+            'type' => 'text',
+        )
+    );
+
+    /** VK (vkontakte) */
+    $wp_customize->add_setting(
+        'rara_academic_vkontakte',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'esc_url_raw',
+        )
+    );
+
+    $wp_customize->add_control(
+        'rara_academic_vkontakte',
+        array(
+            'label' => __( 'VK', 'rara-academic' ),
             'section' => 'rara_academic_social_settings',
             'type' => 'text',
         )

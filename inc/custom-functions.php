@@ -115,7 +115,8 @@ function rara_academic_get_social_links(){
     $gplus     = get_theme_mod( 'rara_academic_gplus' );
     $instagram = get_theme_mod( 'rara_academic_instagram' );
     $youtube   = get_theme_mod( 'rara_academic_youtube' );
-    
+    $vkontakte   = get_theme_mod( 'rara_academic_vkontakte' );
+
     if( $facebook || $twitter || $pinterest || $linkedin || $gplus || $instagram || $youtube ){
     ?>
     <ul class="social-networks">
@@ -133,6 +134,9 @@ function rara_academic_get_social_links(){
         <li><a href="<?php echo esc_url( $instagram ); ?>" class="fa fa-instagram" target="_blank" title="<?php esc_attr_e( 'Instagram', 'rara-academic' );?>"></a></li>
         <?php } if( $youtube ){ ?>
         <li><a href="<?php echo esc_url( $youtube ); ?>" class="fa fa-youtube" target="_blank" title="<?php esc_attr_e( 'YouTube', 'rara-academic' );?>"></a></li>
+        <?php } ?>
+        <?php } if( $vkontakte ){ ?>
+        <li><a href="<?php echo esc_url( $vkontakte ); ?>" class="fa fa-vk" target="_blank" title="<?php esc_attr_e( 'VK', 'rara-academic' );?>"></a></li>
         <?php } ?>
     </ul>
     <?php
