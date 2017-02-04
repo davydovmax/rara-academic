@@ -115,7 +115,7 @@ function rara_academic_get_social_links(){
     $gplus     = get_theme_mod( 'rara_academic_gplus' );
     $instagram = get_theme_mod( 'rara_academic_instagram' );
     $youtube   = get_theme_mod( 'rara_academic_youtube' );
-    $vkontakte   = get_theme_mod( 'rara_academic_vkontakte' );
+    $vkontakte = get_theme_mod( 'rara_academic_vkontakte' );
 
     if( $facebook || $twitter || $pinterest || $linkedin || $gplus || $instagram || $youtube ){
     ?>
