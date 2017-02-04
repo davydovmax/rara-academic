@@ -134,7 +134,6 @@ function rara_academic_get_social_links(){
         <li><a href="<?php echo esc_url( $instagram ); ?>" class="fa fa-instagram" target="_blank" title="<?php esc_attr_e( 'Instagram', 'rara-academic' );?>"></a></li>
         <?php } if( $youtube ){ ?>
         <li><a href="<?php echo esc_url( $youtube ); ?>" class="fa fa-youtube" target="_blank" title="<?php esc_attr_e( 'YouTube', 'rara-academic' );?>"></a></li>
-        <?php } ?>
         <?php } if( $vkontakte ){ ?>
         <li><a href="<?php echo esc_url( $vkontakte ); ?>" class="fa fa-vk" target="_blank" title="<?php esc_attr_e( 'VK', 'rara-academic' );?>"></a></li>
         <?php } ?>
