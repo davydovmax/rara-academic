@@ -20,6 +20,11 @@ function rara_academic_customize_register( $wp_customize ) {
     	$options_posts[$posts->ID] = $posts->post_title;
     }
 
+    $options_pages_obj = get_pages();
+    foreach ( $options_pages_obj as $the_page ) {
+        $options_posts[$the_page->ID] = $the_page->post_title;
+    }
+
     /** Option list of all categories */
     $args = array(
 	   'type'                     => 'post',
