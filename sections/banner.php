@@ -8,7 +8,7 @@
 $banner_post = get_theme_mod( 'rara_academic_banner_post' );
 $read_more   = get_theme_mod( 'rara_academic_banner_read_more', __( 'Learn More', 'rara-academic' ) );
 
-$qry = new WP_Query( "p=$banner_post" );
+$qry = new WP_Query( array('post_type' => array( 'post', 'page' ), "p" => $banner_post ) );
 
 if( $banner_post && $qry->have_posts() ){
     while( $qry->have_posts() ){
