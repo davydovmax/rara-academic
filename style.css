@@ -500,7 +500,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #01c6b8;
+	color: #2c68a9;
 	text-decoration:none;
 }
 
@@ -558,10 +558,11 @@ a:active {
 	float: left;
 	position: absolute;
 	top:100%;
+	margin-top: -1px;
 	left: -999em;
 	z-index: 99999;
 	background: #fff;
-	border-top: 1px solid #01d0c1;
+	border-top: 1px solid #2c68a9;
 }
 
 .main-navigation ul ul ul {
@@ -585,18 +586,18 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
-	color: #01c6b8;
+	color: #2c68a9;
 }
 
 .main-navigation ul ul li:hover > a,
 .main-navigation ul ul li.focus > a {
-	background: #01c6b8;
+	background: #2c68a9;
 	color: #fff;
 }
 
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
-	background: #01c6b8;
+	background: #2c68a9;
 	color: #fff;
 }
 
@@ -616,7 +617,7 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
 .main-navigation .current-menu-ancestor > a {
-	color: #01c6b8;
+	color: #2c68a9;
 }
 
 /* Small menu. */
@@ -1055,7 +1056,7 @@ reset ending
 .header-top .social-networks li a:hover,
 .header-top .social-networks li a:focus{
 	text-decoration: none;
-	background: #01c6b8;
+	background: #2c68a9;
 }
 
 .header-bottom{padding: 10px 0;}
@@ -1099,7 +1100,7 @@ banner
 	line-height: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #01c6b8;
+	background: #2c68a9;
 	padding:20px 46px;
 	position: relative;
 	-webkit-transform: translateZ(0px);
@@ -1167,7 +1168,7 @@ information-section
 	margin-right: 6%;
 }
 .information ul li.box-1{
-	background: #01c6b8;
+	background: #2c68a9;
 }
 .information ul li.box-2{
 	background: #01d4c5;
@@ -1270,7 +1271,7 @@ welcome
 	color: #444447;
 	font-size: 18px;
 	line-height: 22px;
-	border: 2px solid #01c6b8;
+	border: 2px solid #2c68a9;
 	padding:15px 42px;
 	display: inline-block;
 	font-weight: 700;
@@ -1285,7 +1286,7 @@ welcome
 	left: 0;
 	top: 0;
 	right: 0;
-	background: #01c6b8;
+	background: #2c68a9;
 	transition-property:transform;
 	-webkit-transition-property:transform;
 	-moz-transition-property:transform;
@@ -1467,7 +1468,7 @@ latest news
 .latest-news .post .entry-header .entry-title a:hover,
 .latest-news .post .entry-header .entry-title a:focus{
 	text-decoration: none;
-	color: #01c6b8;
+	color: #2c68a9;
 }
 
 .latest-news .post .entry-content{
@@ -1558,7 +1559,7 @@ latest publication
 }
 .publication .content-box  .buy-now{
 	display: inline-block;
-	background: #01c6b8;
+	background: #2c68a9;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 17px;
@@ -1764,7 +1765,7 @@ student section
 	width: 70px;
 	float: left;
 	border-radius: 5px;
-	background: #01c6b8;
+	background: #2c68a9;
 	text-align: center;
 	padding: 10px 5px;
 	height: 70px;
@@ -1858,7 +1859,7 @@ viewer section
 .viewer-section .apply{
 	float: right;
 	color: #fff;
-	background: #01c6b8;
+	background: #2c68a9;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
@@ -1875,7 +1876,7 @@ viewer section
 	left: 0;
 	top: 0;
 	right: 0;
-	background: #018c82;
+	background: #1a4573;
 	transition-property:transform;
 	-webkit-transition-property:transform;
 	-moz-transition-property:transform;
@@ -2016,7 +2017,7 @@ site-footer
 	text-align: center;
 }
 .site-info a{
-	color: #01b8ab;
+	color: #2c68a9;
 }
 .site-info a:hover{
 	color: #555458;
@@ -2091,7 +2092,7 @@ body:not(.home) .site-header .main-navigation a{
 }
 body:not(.home) .site-header .main-navigation .current-menu-item > a,
 body:not(.home) .site-header .main-navigation a:hover{
-	border-bottom: 1px solid #01d0c1;
+	border-bottom: 1px solid #2c68a9;
 }
 .page-header{
 	background: #f8f8f9;
@@ -2103,7 +2104,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 	color: #55677c;
 }
 #crumbs a{
-	color: #01c6b8;
+	color: #2c68a9;
 }
 .site-content{
 	padding-top: 72px;
@@ -2124,7 +2125,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 	width: 100%;
 }
 .site-content #primary .entry-title a:hover{
-	color: #01c6b8;
+	color: #2c68a9;
 }
 .site-content #primary .entry-meta{
 	font-size: 15px;
@@ -2135,7 +2136,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 	text-transform: uppercase;
 }
 .site-content #primary .entry-meta a:hover{
-	color: #01c6b8;
+	color: #2c68a9;
 }
 .site-content #primary .entry-meta span{
 	position: relative;
@@ -2165,7 +2166,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 	padding: 9px;
 }
 .site-content #primary .post .read-more{
-	background: #01c6b8;
+	background: #2c68a9;
 	color: #ffffff;
 	font-size: 16px;
 	line-height: 20px;
@@ -2183,7 +2184,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 	left: 0;
 	top: 0;
 	right: 0;
-	background: #018c82;
+	background: #1a4573;
 	transition-property:transform;
 	-webkit-transition-property:transform;
 	-moz-transition-property:transform;
@@ -2248,12 +2249,12 @@ body:not(.home) .site-header .main-navigation a:hover{
 	height: 40px;
 	text-decoration: none;
 	display: inline-block;
-	border: 1px solid #01c6b8;
+	border: 1px solid #2c68a9;
 	padding: 6px 16px;
 }
 .navigation.pagination .page-numbers.current, .navigation.pagination .page-numbers:hover{
-	background: #01c6b8;
-	border: 1px solid #01c6b8;
+	background: #2c68a9;
+	border: 1px solid #2c68a9;
 }
 .navigation.pagination .page-numbers .fa{
 	font-size: 14px;
@@ -2498,7 +2499,7 @@ widget-area
 	background: #fff;
 }
 .widget.widget_tag_cloud .tagcloud a:hover{
-	background: #01c6b8;
+	background: #2c68a9;
 	color: #fff;
 }
 #secondary .widget.widget_rara_academic_social_links ul li,
@@ -2614,7 +2615,7 @@ error-page
 	margin-bottom: 30px;
 }
 .error404 .not-found .home{
-	background: #01c6b8;
+	background: #2c68a9;
 	padding: 16px 40px;
 	font-weight: 700;
 	color: #fff;
@@ -2630,7 +2631,7 @@ error-page
 	left: 0;
 	top: 0;
 	right: 0;
-	background: #018c82;
+	background: #1a4573;
 	transition-property:transform;
 	-webkit-transition-property:transform;
 	-moz-transition-property:transform;
@@ -2729,7 +2730,7 @@ img.alignright{
 	float: left;
 }
 .highlight{
-	background: #01c6b8;
+	background: #2c68a9;
 }
 .site-content .entry-content table th{
 	padding: 16px 30px;
@@ -2890,7 +2891,7 @@ pre{
 	line-height: 30px;
 	border-radius: 2px;
 	line-height: 24px;
-	background: #01c6b8;
+	background: #2c68a9;
 	text-transform: uppercase;
 	border: 0;
 }
@@ -2947,10 +2948,10 @@ pre{
 	border-radius: 50%;
 	display: block;
 	text-align: center;
-	border: 1px solid #01c6b8;
+	border: 1px solid #2c68a9;
 }
 .author-section ul li a:hover{
-	background: #01c6b8;
+	background: #2c68a9;
 }
 .author-section ul li .fa{
 	font-size: 14px;
@@ -3026,7 +3027,7 @@ comments-area ol li:first-child .reply{
 	font-size: 13px;
 	line-height: 30px;
 	border-radius: 2px;
-	background: #01c6b8;
+	background: #2c68a9;
 	padding: 4px 26px;
 	display: inline-block;
 	color: #fff;
@@ -3083,7 +3084,7 @@ comments-area ol li:first-child .reply{
 	line-height: 30px;
 	font-weight: 700;
 	padding: 12px 60px;
-	background:#01c6b8;
+	background:#2c68a9;
 }
 .comment-form form input[type="submit"]:hover{
 	background: #01867d;
