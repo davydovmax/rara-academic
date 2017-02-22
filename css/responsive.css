@@ -1,8 +1,26 @@
+/*
+thumbnail on the left of the post
+
+@media only screen and (min-width: 767px){
+	.site-content #primary .entry-content {
+		margin-left: 300px;
+	}
+
+	.site-content #primary .post .post-thumbnail {
+		border: none;
+		padding: 0;
+		width: 250px;
+		float: left;
+	}
+}
+*/
+
 @media only screen and (max-width: 1400px){
 	.site-footer .column{
 		width: 33.33%;
 	}
 }
+
 
 
 @media only screen and (max-width: 1199px){

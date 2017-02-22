@@ -2121,9 +2121,11 @@ body:not(.home) .site-header .main-navigation a:hover{
 	font-weight: 400;
 	display: inline-block;
 }
+
 .site-content #primary .post .post-thumbnail img{
 	width: 100%;
 }
+
 .site-content #primary .entry-title a:hover{
 	color: #2c68a9;
 }
@@ -2175,6 +2177,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 	padding: 16px 34px;
 	font-weight: 700;
 	position: relative;
+	float: right;
 	-webkit-transform: translateZ(0px);
 	-moz-transform: translateZ(0px);
 	transform: translateZ(0px);
@@ -2214,6 +2217,7 @@ body:not(.home) .site-header .main-navigation a:hover{
 .site-content #primary .post:first-child{
 	padding-top: 0;
 }
+
 .site-content #primary .entry-content blockquote{
 	font-style: italic;
 	font-size: 20px;
