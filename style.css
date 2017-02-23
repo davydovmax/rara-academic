@@ -1602,13 +1602,16 @@ latest publication
 
 /*----------------------------------------------------
  Testimonials
+ # background: url(images/bg-testimonial.jpg) no-repeat;
+ # background-size: cover;
 -----------------------------------------------------*/
 .testimonial{
-	background: url(images/bg-testimonial.jpg) no-repeat;
-	background-size: cover;
-	padding: 120px 0;
-	position: relative;
-	background-attachment: fixed;
+/* generated dynamically in rara-academic-custom/template-home.php */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 120px 0;
+    position: relative;
 }
 
 .testimonial:before{

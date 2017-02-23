@@ -758,6 +758,22 @@ function rara_academic_customize_register( $wp_customize ) {
             'choices' => $option_categories,
         )
     );
+
+    $wp_customize->add_setting( 'art_people_testimonials_background' );
+    $wp_customize->add_control(
+        new WP_Customize_Cropped_Image_Control(
+            $wp_customize, 'cropped_image', array(
+                'settings' => 'art_people_testimonials_background',
+                'label' => __( 'Section background image', 'todo_fix_translation_domain' ),
+                'section' => 'rara_academic_students_settings',
+                'mime_type' => 'image',
+                'flex_width'  => true, // Allow any width, making the specified value recommended. False by default.
+                'flex_height' => true, // Require the resulting image to be exactly as tall as the height attribute (default).
+                'width'       => 1920,
+                'height'      => 1080,
+            )
+        )
+    );
     
     /** CTA Section */
     $wp_customize->add_section(
