@@ -27,9 +27,9 @@ if( $banner_post && $qry->have_posts() ){
             				
             				<h2><?php the_title(); ?></h2>
             				    
-                            <?php the_excerpt();
+                            <?php if( has_excerpt() ) { the_excerpt(); }
                             
-                            if( $read_more ){ ?>
+                            if( $read_more ) { ?>
             				    <a href="<?php the_permalink(); ?>" class="learn-more"><?php echo esc_html( $read_more ); ?></a>
             			    <?php } ?>
             			
