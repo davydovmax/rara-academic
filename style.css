@@ -1205,16 +1205,20 @@ popular courses
 	display: block;
 	
 }
-.home .post-thumbnail{
+.popular-courses .post-thumbnail{
 	overflow: hidden;
 }
-.home .post img{
+.site-content #primary .popular-courses .post .post-thumbnail{
+	border: none;
+	padding: 0;
+}
+.popular-courses .post img{
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	transition: 1s;
 }
 
-.home .post img:hover{
+.popular-courses .post img:hover{
 	transform: scale(1.25);
 	-webkit-transform: scale(1.25);
 	-moz-transform: scale(1.25);
